@@ -1,0 +1,36 @@
+[user]
+	name = Full Name
+	email = Git Email
+
+[color]
+	ui = true
+
+[color "branch"]
+	curren = yellow bold
+	local = green bold
+	remote = cyan bold
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+[alias]
+	g = git
+	am = "!git commit -am"
+	amend = !git add -A && git commit --amend --no-edit
+	st = status
+	c = commit
+	a = add .
+	ac = !git add -A && git commit -m
+	co = !git checkout 
+	
+[core]
+	excludesfile = /Users/<user folder>/.gitignore_global
