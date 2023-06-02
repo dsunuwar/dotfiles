@@ -17,4 +17,4 @@ This directory contains zsh configuration files. To install, simply copy the .zs
 cp .zshrc ~/
 cp .zprofile ~/
 ```
-```bash
+
